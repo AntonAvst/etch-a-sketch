@@ -1,0 +1,29 @@
+/* Center the container div and give it a fixed size */
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    min-height: 100vh;       /* Full viewport height */
+    margin: 0;
+}
+
+/* Flex container styles */
+#container {
+    display: flex;
+    gap: 10px;
+    width: 600px;            /* Fixed width */
+    height: 200px;           /* Fixed height */
+    background-color: lightgray;
+    border: 2px solid #333;
+    padding: 20px;
+    justify-content: space-between; /* Space between the divs */
+}
+
+/* Individual div styles */
+.flex-item {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid black;
+    flex: 1;
+    text-align: center;
+}
